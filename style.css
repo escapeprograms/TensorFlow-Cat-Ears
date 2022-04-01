@@ -1,0 +1,32 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  color: #3D3D3D;
+}
+
+video {
+  display: block;
+}
+
+section {
+  opacity: 1;
+}
+
+.removed {
+  display: none;
+}
+
+
+.camView {
+  position: relative;
+  float: left;
+  width: calc(100% - 20px);
+  margin: 10px;
+  cursor: pointer;
+}
+
+
+.ear {
+  z-index: 1;
+  position: absolute;
+}
